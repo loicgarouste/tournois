@@ -1,29 +1,33 @@
 {
   "settings": {
-    "name": "tournois",
+    "name": "TOURNOI ROLLAND GARROS 2017",
     "currentPage": "index.html",
     "theme": {
-      "name": "colorm",
-      "title": "ColorM",
+      "name": "mobirise3",
+      "title": "Mobirise 3",
       "styling": {
-        "primaryColor": "#dddddd",
-        "buttonsColor": "#000000",
-        "secondaryColor": "#9b59b6",
-        "successColor": "#2ecc71",
-        "infoColor": "#3498db",
-        "warningColor": "#f1c40f",
-        "dangerColor": "#e74c3c",
-        "titleFont": "Arvo",
+        "primaryColor": "#ffffff",
+        "secondaryColor": "#bfcecb",
+        "successColor": "#90a878",
+        "infoColor": "#7e9b9f",
+        "warningColor": "#f3c649",
+        "dangerColor": "#f28281",
+        "titleFont": "Montserrat",
         "subtitleFont": "Montserrat",
-        "textFont": "Open Sans",
-        "isRoundedButtons": true,
+        "textFont": "Montserrat",
+        "isRoundedButtons": false,
         "isAnimatedOnScroll": true,
-        "isScrollToTopButton": false
+        "isScrollToTopButton": true,
+        "isRtl": false
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 5,
-    "versionPublish": "3.12.1"
+    "uniqCompNum": 8,
+    "versionPublish": "3.12.1",
+    "favicon": "@PROJECT_PATH@/assets/images/roland-garros-128x127.png",
+    "noImageResize": "",
+    "google-analytics": "",
+    "cookiesAlert": ""
   },
   "pages": {
     "index.html": {
@@ -37,183 +41,284 @@
       },
       "components": [
         {
-          "_inherit": "gallery1",
-          "alias": "colorm/components",
           "_tags": [
             "Theme"
           ],
-          "_name": "gallery2",
+          "_name": "header1",
+          "_anchor": "header1-0",
           "_params": {
-            "paddingTop": "0",
-            "paddingBottom": "0",
-            "images": [
-              {
-                "tags": "Awesome",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/premier-prix-18000-2000x1333-800x533.png",
-                "image": "@PROJECT_PATH@/assets/images/premier-prix-18000-2000x1333.png",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Responsive",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/new-logo-2000x800-800x320.png",
-                "image": "@PROJECT_PATH@/assets/images/new-logo-2000x800.png",
-                "caption": "Type caption here",
-                "active": true
-              },
-              {
-                "tags": "Awesome",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/premier-prix-18000-2000x1333-800x533.png",
-                "image": "@PROJECT_PATH@/assets/images/premier-prix-18000-2000x1333.png",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Responsive",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/new-logo-2000x800-800x320.png",
-                "image": "@PROJECT_PATH@/assets/images/new-logo-2000x800.png",
-                "caption": "Type caption here",
-                "active": false
-              }
-            ],
-            "spacing": "3",
-            "showText": false,
-            "filter": false,
-            "bgColor": "#e1e3ff",
-            "filterBgColor": false,
-            "fullWidth": true,
-            "showBullets": true
-          },
-          "_anchor": "gallery2-3",
-          "articleLayout": false,
-          "allItem": "ALL",
-          "arrowleft": "<img src=\"@PROJECT_PATH@/assets/images/arrowleft.png\">",
-          "arrowright": "<img src=\"@PROJECT_PATH@/assets/images/arrowright.png\">"
-        },
-        {
-          "_styles": {
-            "th": {
-              "color": "#9fa3a7"
-            },
-            ".mbr-section-title": {
-              "font-size": "46px",
-              "text-align": "center",
-              "font-family": "'Roboto Condensed', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700",
-              "color": "#333333"
-            },
-            "I": {
-              "font-family": "'Open Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
-              "text-align": "left"
-            },
-            "TD": {
-              "font-size": "25px",
-              "text-align": "left",
-              "font-family": "'Open Sans Condensed', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700",
-              "color": "#333333"
-            },
-            "TH": {
-              "text-align": "left",
-              "font-size": "32px"
-            },
-            "B": {
-              "color": "#333333",
-              "text-align": "center"
-            }
-          },
-          "alias": "colorm/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "table1",
-          "_anchor": "table1-1",
-          "_params": {
-            "rowСount": "20",
-            "colCount": "4",
-            "paddingTop": "1",
-            "paddingBottom": "0",
-            "bgImageRadio": true,
             "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1333.jpg",
-            "bgColor": "#e1e3ff",
+            "bgImageRadio": false,
+            "showArrow": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#a07e49",
             "bgColorRadio": false,
             "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+              "width": 1280,
+              "height": 720,
+              "url": "https://www.youtube.com/embed/Pkw-OBmEdIs?rel=0&amp;showinfo=0&autoplay=0&loop=0"
             },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": "0.6",
-            "overlayColor": "#e1e3ff",
+            "bgVideoRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "contentAlign": "left",
             "showTitle": true,
-            "showSearch": true
+            "showText": false,
+            "showButtons": false
           },
-          "title": "TABLEAU DU CLASSEMENT INTERMEDIAIRE&nbsp;<br>",
-          "search": "Search:",
-          "info1": "",
-          "info2": "",
-          "info3": "",
-          "info4": "",
-          "table": "<thead><tr><th><span style=\"font-weight: normal;\">Login</span></th><th><span style=\"font-weight: normal;\">Pays</span></th><th><span style=\"font-weight: normal;\">Jeux Favori</span></th><th><span style=\"font-weight: normal;\">Prix</span></th></tr></thead><tbody><tr><td>bsabrier</td><td>France</td><td>Catsino</td><td>18000 €</td></tr><tr><td>frapadingue</td><td>France</td><td>Golden Gorilla</td><td>16000 €</td></tr><tr><td>jojo65</td><td>Suisse</td><td>Ten Times Wins</td><td>12000 €</td></tr><tr><td>jean.m</td><td>France</td><td>Gold Rush</td><td>10000 €</td></tr><tr><td>billym</td><td>UK</td><td>Frogged</td><td>6000 €</td></tr><tr><td>ahmed55&nbsp;</td><td>Egypte</td><td>Diamond Dragon</td><td>2000 €</td></tr><tr><td>charlotte/af</td><td>France</td><td>Catsino</td><td>1000 €</td></tr><tr><td>giovanni.corrado</td><td>Italie</td><td>Five Times Wins</td><td>800 €</td></tr><tr><td>frapadingue</td><td>France</td><td>Diamond Dragon</td><td>600 €</td></tr><tr><td>freddo85</td><td>France</td><td>Gold Rush</td><td>400 €<br></td></tr><tr><td>pierreboniface</td><td>France</td><td>Diamond Dragon</td><td>300 €</td></tr><tr><td>lesueur</td><td>France</td><td>Frogged</td><td>200 €</td></tr><tr><td>sissi54000</td><td>France</td><td>Champs Elysées</td><td>150 €</td></tr><tr><td>koumbou63</td><td>France</td><td>Diggin Deep</td><td>150 €</td></tr><tr><td>fanfan51</td><td>France</td><td>Frogged Mobile</td><td>100 €<br></td></tr><tr><td>scastelo</td><td>Portugal</td><td>Catsino</td><td>100 €</td></tr><tr><td>maucet</td><td>Italie</td><td>Big Cash Win</td><td>100 €<br></td></tr><tr><td>cantalou400</td><td>France</td><td>Deuces and Joker</td><td>50 €<br></td></tr><tr><td>cmoinini</td><td>France</td><td>Keno</td><td>25 €<br></td></tr><tr><td>kimmylee</td><td>Afrique du Sud</td><td>Love and Money</td><td>25 €<br></td></tr></tbody>"
+          "title": "<p><span style=\"line-height: 1.1;\"><a href=\"https://goo.gl/pVzjsC\" target=\"_blank\">JOUEZ</a></span><br></p><a href=\"https://goo.gl/pVzjsC\" target=\"_blank\">VIBREZ</a><br><p><a href=\"https://goo.gl/pVzjsC\" target=\"_blank\">GAGNEZ</a></p>",
+          "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. <br> Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>",
+          "_styles": {
+            ".mbr-section-title": {
+              "text-align": "left",
+              "font-size": "80px",
+              "font-family": "'Merriweather', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Merriweather:400,300,700"
+            },
+            ".mbr-section-title P": {
+              "font-family": "'Merriweather', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Merriweather:400,300,700"
+            }
+          }
         },
         {
+          "_inherit": "testimonials1",
           "_styles": {
-            "DIV": {
-              "font-size": "60px",
-              "color": "#ffffff"
+            ".mbr-section-title": {
+              "color": "#f3c649"
             },
-            "H3": {
-              "font-size": "16px"
+            ".mbr-author-name": {
+              "color": "#ccc"
+            },
+            ".card-block": {
+              "font-size": "20px"
+            },
+            ".card-block P": {
+              "font-size": "20px"
             }
           },
-          "alias": "colorm/components",
           "_tags": [
             "Theme"
           ],
-          "_name": "counters2",
-          "_anchor": "counters2-4",
+          "_name": "testimonials3",
+          "testimonial": [
+            {
+              "text": "<p>&nbsp;REMPLISSEZ <a href=\"index.html#extHeader10-5\">LE FORMULAIRE</a>&nbsp;AFIN DE NOUS COMMUNIQUER LE JOUEUR DU JOUR QUE VOUS DONNEZ GAGNANT</p>",
+              "media": {
+                "image": {
+                  "src": "@THEME_PATH@/components/_images/face3.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              },
+              "authorName": "Abanoub S.",
+              "authorBio": "User"
+            },
+            {
+              "text": "<p><span style=\"line-height: 2;\">SI VOTRE PRONOSTIC SE RÉALISE T VOTRE JOUEUR GAGNE EFFECTIVEMENT LE MATCH DU JOUR POUR LEQUEL VOUS AVEZ PARIÉ</span></p>",
+              "media": {
+                "image": {
+                  "src": "@THEME_PATH@/components/_images/face1.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              },
+              "authorName": "Suffian A.",
+              "authorBio": "User"
+            },
+            {
+              "text": "<p>NOUS VOUS DOUBLERONS AUTOMATIQUEMENT VOTRE BALANCE EN CASH. VIBREZ AU RHYTME DE LA COMPÉTITON!&nbsp;</p>",
+              "media": {
+                "image": {
+                  "src": "@THEME_PATH@/components/_images/face2.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              },
+              "authorName": "Jhollman C.",
+              "authorBio": "User"
+            },
+            {
+              "text": "<p>NOUS COMPTABILISERONT TOUTES VOS MISES ENTRE LE 4 JUIN ET LA FINALE.</p>",
+              "media": {
+                "image": {
+                  "src": "@THEME_PATH@/components/_images/face2.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              },
+              "authorName": "John Smith",
+              "authorBio": "Developer"
+            },
+            {
+              "text": "<p>CEUX AYANT ACCUMULÉ LE PLUS DE MISES SE PARTAGERONT&nbsp;<span style=\"line-height: 2;\">75'000 €</span></p>",
+              "media": {
+                "image": {
+                  "src": "@THEME_PATH@/components/_images/face2.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              },
+              "authorName": "John Smith",
+              "authorBio": "Developer"
+            },
+            {
+              "text": "<p>CONSULTEZ LE <a href=\"index.html#extTable1-6\">CLASSEMENT INTERMEDIAIRE ICI</a></p>",
+              "media": {
+                "image": {
+                  "src": "@THEME_PATH@/components/_images/face2.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              },
+              "authorName": "John Smith",
+              "authorBio": "Developer"
+            }
+          ],
+          "_anchor": "testimonials3-1",
           "_params": {
-            "showSubtitles": false,
-            "paddingTop": "4",
-            "paddingBottom": "4",
-            "bgImageRadio": false,
+            "paddingTop": "1",
+            "paddingBottom": "2",
+            "bgImageRadio": true,
             "parallax": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1333.jpg",
-            "bgColor": "#722891",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1090.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.5",
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubtitle": false,
+            "count": "6",
+            "showImages": false,
+            "showName": false,
+            "showBio": false
+          },
+          "title": "LE TOURNOI DE TENNIS DE ROLAND GARROS<br>COMMENT ÇA MARCHE",
+          "subtitle": "Shape your future web project with sharp design and refine coded functions."
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_anchor": "form1-7",
+          "_params": {
+            "labelsColor": "#cccccc",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1389.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "overlay": false,
+            "overlayOpacity": "0.4",
+            "overlayColor": "#ffffff",
+            "showTitle": true,
+            "showSubTitle": false
+          },
+          "title": "REMPLISSEZ LE FORMULAIRE DE JEU",
+          "subtitle": "Shape your future web project with sharp design and refine coded functions.",
+          "form": {
+            "action": "support@vegasfiesta.com",
+            "alerts": {
+              "success": "A VOUS DE JOUER !"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "NOM*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "EMAIL*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "IDENTIFIANT*"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "QUEL JOUEUR DONNEZ VOUS GAGNANT POUR LE PROCHAIN MATCH?"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-warning\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">PARIEZ!</a>",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#cccccc"
+            },
+            ".mbr-section-title": {
+              "color": "#f3c649"
+            }
+          }
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "\n\n\n\n<iframe src=\"https://WWW.rolandgarros.com/fr_FR/draws/index.html\" height=\"1000\" width=\"2000\" style=\"border:none;\"></iframe>\n\n\n\n",
+          "_customCSS": "/* Type valid CSS here */\n.my-image {\n  width: 100%;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_anchor": "custom-html-4",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": []
+        },
+        {
+          "alias": "mobirise3-blocks/components",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "extTable1",
+          "_anchor": "extTable1-6",
+          "_params": {
+            "rowСount": 4,
+            "colCount": 4,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@ADDONS_PATH@/mobirise3-blocks/components/_images/sky.jpg",
+            "bgColor": "#fff",
             "bgColorRadio": true,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": "0.6",
-            "overlayColor": "#e1e3ff",
-            "showTitles": false,
-            "showText": false
+            "overlayOpacity": 0.4,
+            "overlayColor": "#fff",
+            "showTitle": true,
+            "showSearch": true
           },
-          "title": "View Our Statistic",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aliquam fuga aspernatur quaerat nobis deserunt.",
-          "number1": "68000",
-          "subtitle1": "euros a gagner",
-          "number2": "380",
-          "subtitle2": "PARTICIPANTS",
-          "number3": "250",
-          "subtitle3": "JEUX",
-          "number4": "18000",
-          "subtitle4": "EUROS PREMIER PRIX"
+          "title": "CLASSEMENT INTERMEDIAIRE",
+          "search": "Search:",
+          "info1": "Showing",
+          "info2": "entries",
+          "info3": "(filtered from",
+          "info4": "total entries)",
+          "table": "<thead><tr><th>Name</th><th>Rang</th><th>Prix</th><th>Jeu Favori</th></tr></thead><tbody><tr><td>Jeanna Schmal</td><td>44</td><td>2016-10-17</td><td>$317.000</td></tr><tr><td>Caren Rials</td><td>35</td><td>2013-04-12</td><td>$445.500</td></tr><tr><td>Leon Rogol</td><td>66</td><td>2016-05-22</td><td>$152.558</td></tr><tr><td>Shala Barrera</td><td>70</td><td>2016-05-15</td><td>$459.146</td></tr></tbody>"
         }
       ]
     }
